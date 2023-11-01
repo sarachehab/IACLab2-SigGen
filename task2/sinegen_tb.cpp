@@ -30,7 +30,7 @@ int main(int argc, char **argv, char **env)
     top->clk = 1;
     top->rst = 0;
     top->en = 1;
-    top->incr = 1;
+    top->incr = 2;
     top->offset = vbdValue();
 
     // run simulation for N samples

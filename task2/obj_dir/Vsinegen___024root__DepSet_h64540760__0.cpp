@@ -32,8 +32,7 @@ VL_INLINE_OPT void Vsinegen___024root___nba_sequent__TOP__0(Vsinegen___024root* 
     vlSelf->dout1 = vlSelf->sinegen__DOT__sineRom__DOT__rom_array
         [vlSelf->sinegen__DOT__address];
     vlSelf->dout2 = vlSelf->sinegen__DOT__sineRom__DOT__rom_array
-        [(0xffU & VL_MODDIV_III(32, ((IData)(vlSelf->sinegen__DOT__address) 
-                                     + (IData)(vlSelf->offset)), (IData)(0xffU)))];
+        [(0xffU & ((IData)(vlSelf->offset) + (IData)(vlSelf->sinegen__DOT__address)))];
     vlSelf->sinegen__DOT__address = __Vdly__sinegen__DOT__address;
 }
 

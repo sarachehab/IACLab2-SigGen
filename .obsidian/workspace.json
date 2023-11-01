@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9f8076a52273aef1",
+        "id": "b7fe26f6e5e8a408",
         "type": "tabs",
         "children": [
           {
-            "id": "a1b518016e0dcf78",
+            "id": "bd57082328478de3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "task1/readme.md",
+                "file": "task2/readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 348.5
   },
   "right": {
     "id": "be55979c0d9ea9be",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "task1/readme.md",
+                "file": "task2/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "task1/readme.md",
+                "file": "task2/readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "task1/readme.md"
+                "file": "task2/readme.md"
               }
             }
           }
@@ -146,17 +146,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1b518016e0dcf78",
+  "active": "bd57082328478de3",
   "lastOpenFiles": [
+    "images/singen_quadrature.jpeg",
+    "images/sinegen_offset89.jpeg",
+    "images/sinegen_offset13.jpeg",
+    "sinegen.md",
     "task2/readme.md",
+    "images/singen quadrature.jpeg",
+    "images/sinegen offset 89.jpeg",
+    "images/sinegen offset 13.jpeg",
+    "task2/sinegen.vcd",
+    "task2/obj_dir/Vsinegen",
+    "task2/obj_dir/verilated.o",
+    "task2/obj_dir/verilated.d",
+    "task2/obj_dir/verilated_vcd_c.o",
+    "task2/obj_dir/verilated_vcd_c.d",
+    "task2/obj_dir/Vsinegen__ALL.a",
+    "task2/obj_dir/sinegen_tb.o",
+    "task2/obj_dir/Vsinegen__ALL.a.verilator_deplist.tmp",
+    "task2/obj_dir/verilated_threads.o",
+    "images/addr2_waveform.jpg",
     "task1/readme.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
     "images/sinegen.jpg",
     "images/rom.png",
     "images/rom.jpg",
     "task3/readme.md",
     "Vbuddy_functions.md",
     "task1/readme.md.md",
-    "Lab_2.md",
-    "Lab_2.pdf"
+    "Lab_2.md"
   ]
 }
