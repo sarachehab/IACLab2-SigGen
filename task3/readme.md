@@ -34,7 +34,7 @@ endmodule
 
 Note that RAMs can also be modelled through arrays and D-FlipFlops. Indeed:
 
-![ram as array](ram_array.png)
+![ram as array](./images/ram_array.png)
 
 
 
@@ -42,7 +42,7 @@ Note that RAMs can also be modelled through arrays and D-FlipFlops. Indeed:
 
 We then need to create a top sheet instantiating `count` and `ram2ports` modules:
 
-![full circuit](microphone_circuit.jpg)
+![full circuit](../images/microphone_circuit.jpg)
 
 ```SystemVerilog
 module sigdelay # (
