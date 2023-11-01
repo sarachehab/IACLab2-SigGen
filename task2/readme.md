@@ -173,4 +173,4 @@ Then, we should set $offset=256/4=64$.
 
 The obtained signals are then called *quadrature signals*:
 
-![quadrature signals](singen_quadrature.jpeg)
+![quadrature signals](../images/singen_quadrature.jpeg)
