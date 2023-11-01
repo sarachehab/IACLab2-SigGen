@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "task2/readme.md",
+                "file": "task3/readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "task2/readme.md",
+                "file": "task3/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "task2/readme.md",
+                "file": "task3/readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "task2/readme.md"
+                "file": "task3/readme.md"
               }
             }
           }
@@ -148,32 +148,33 @@
   },
   "active": "bd57082328478de3",
   "lastOpenFiles": [
+    "task3/sigdelay.vcd",
+    "task3/obj_dir/Vsigdelay",
+    "task3/obj_dir/verilated.o",
+    "task3/obj_dir/verilated.d",
+    "task3/obj_dir/verilated_vcd_c.o",
+    "task3/obj_dir/verilated_vcd_c.d",
+    "task3/obj_dir/Vsigdelay__ALL.a.YCMKGn",
+    "task3/obj_dir/Vsigdelay__ALL.a",
+    "task3/obj_dir/sigdelay_tb.o",
+    "task3/obj_dir/Vsigdelay__ALL.a.verilator_deplist.tmp",
+    "task3/obj_dir/verilated_threads.o",
+    "task1/readme.md",
+    "task3/readme.md",
+    "images/microphone_circuit.jpg",
+    "images/ram_array.png",
+    "images/2_ports_ram.jpg",
+    "images/rom.jpg",
+    "images/rom.png",
+    "task2/readme.md",
     "images/singen_quadrature.jpeg",
     "images/sinegen_offset89.jpeg",
     "images/sinegen_offset13.jpeg",
     "sinegen.md",
-    "task2/readme.md",
     "images/singen quadrature.jpeg",
     "images/sinegen offset 89.jpeg",
-    "images/sinegen offset 13.jpeg",
-    "task2/sinegen.vcd",
-    "task2/obj_dir/Vsinegen",
-    "task2/obj_dir/verilated.o",
-    "task2/obj_dir/verilated.d",
-    "task2/obj_dir/verilated_vcd_c.o",
-    "task2/obj_dir/verilated_vcd_c.d",
-    "task2/obj_dir/Vsinegen__ALL.a",
-    "task2/obj_dir/sinegen_tb.o",
-    "task2/obj_dir/Vsinegen__ALL.a.verilator_deplist.tmp",
-    "task2/obj_dir/verilated_threads.o",
-    "images/addr2_waveform.jpg",
-    "task1/readme.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "images/sinegen.jpg",
-    "images/rom.png",
-    "images/rom.jpg",
-    "task3/readme.md",
     "Vbuddy_functions.md",
     "task1/readme.md.md",
     "Lab_2.md"

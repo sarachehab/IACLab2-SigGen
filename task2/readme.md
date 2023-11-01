@@ -47,7 +47,7 @@ endmodule
 
 Modify the top file `sinegen.sv` to account for the new inputs (`offset`, `addr1`, `addr2`) and outputs (`dout1` and `dout2`).
 
-Defining $addr2≡addr1+offset$  $[256$]:
+Defining $addr2≡addr1+offset$  $[255$]:
 
 ``` SystemVerilog
 module sinegen # (
@@ -171,6 +171,6 @@ To output a sinewave, we would need a phase-shift of $ϕ=π/2$.
 
 Then, we should set $offset=256/4=64$.
 
-The obtained signals are then called *quadrature signals*:
+The signals (pictures below) are then called *quadrature signals*.
 
 ![quadrature signals](../images/singen_quadrature.jpeg)
