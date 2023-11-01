@@ -8,7 +8,7 @@ The storing unit within ROMs can be mapped to matrices of size *BITS_PER_ENTRY x
 
 ![Rom Array](../images/rom.png)
 
-In SystemVerilog, we would use the command `DATA_WIDTH-1:0] rom_array [2**ADDRESS_WIDTH-1:0]` to create that array:
+In SystemVerilog, use the command `DATA_WIDTH-1:0] rom_array [2**ADDRESS_WIDTH-1:0]` to create that array:
 
 ``` SystemVerilog
 module rom # (
@@ -109,9 +109,11 @@ The C++ testbench  `sinegen_tb.cpp` testing our top sheet should:
 1. Instantiate of the DUT
 2. Connect to Vbuddy
 3. Set-up of VCD wavetracer file for troubleshooting
-4. Initialise of input variables `clk`, `rst`, `en` and `incr`
+4. Initialise input variables `clk`, `rst`, `en` and `incr`
 5. Emulate of `clk` through `for` loop, and dump of input and output values at clock edges
 6. Allow for visualisation of output `dout` through Vbuddy
+7. Close Vbuddy instance
+8. End program
 
 ```C++
 #include "Vsinegen.h"
@@ -218,9 +220,7 @@ Indeed, assuming that, for clock cycle 0, since ROM_ADDR = 0:
 | $incr=1$  | $n$ | $cos(2πn/256)$ | $Ω_0=2π/256$ |
 | $incr>1$ | $n*incr$ | $cos(2πn*incr/256)$ | $Ω_i=2π*incr/256$ |
 
-Then:
-$$Ω_i=Ω_0*incr$$
-$$f_i=f_0*incr$$
+Then, $Ω_i=Ω_0*incr$ and $f_i=f_0*incr$.
 
 
 Adjusting the testbench to allow for user-determination of `incr` through the rotary encoder:
